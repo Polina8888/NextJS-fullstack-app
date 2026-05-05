@@ -1,0 +1,45 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  width: 25%;
+}
+
+@media (max-width: 425px) {
+  .card {
+    width: 90%;
+  }
+}
+
+.coords {
+  font-size: 0.8rem;
+  color: #ebe9e9;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.condition {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  text-transform: capitalize;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: #ebe9e9;
+  margin-top: 1rem;
+}
